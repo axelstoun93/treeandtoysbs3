@@ -1,0 +1,1021 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    color: #707070;
+    font-family: Segoe UI Regular;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: normal;
+}
+h1, .h1 {
+    color: #000;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+h2, .h2 {
+    color: #000;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section
+{
+    padding: 20px;
+}
+a:hover
+{
+    text-decoration: none;
+}
+
+/* header */
+.header-block
+{
+    padding-top: 40px;
+    font-size: 20px;
+    color:#707070;
+}
+.logo
+{
+    display:  block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.logo img
+{
+    max-width: 200px;
+    width: 100%;
+}
+
+
+
+.top-left,
+.top-right
+{
+    padding-top: 30px;
+}
+
+.top-contact a
+{
+    padding: 0 2px;
+    color:#707070;
+}
+.top-contact a i
+{
+   color: #b14916;
+}
+.top-search
+{
+    padding-top: 40px;
+}
+.form-search .form-control
+{
+    width: 100%;
+
+}
+.form-search .input-group
+{
+    width: 100%;
+    margin: 0;
+    padding:0;
+}
+.form-search .input-group .form-control
+{
+    padding: 23px 20px;
+    border-radius: 30px 30px;
+    background: #cee6b6;
+    width: 83.333333%;
+    border: none;
+    box-shadow: none;
+}
+
+.form-search .input-group  input
+{
+    background: #cee6b6;
+}
+
+.form-search .input-group  input:focus
+{
+    box-shadow: none;
+}
+.form-search  a
+{
+   padding-left: 10px;
+   color:#707070;
+}
+.form-search  .search-button
+{
+
+    background: #cee6b6;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.form-search  .search-button i
+{
+    display: inline-block;
+    padding: 12px 10px;
+}
+
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: none;
+    width: 100%;
+    margin-bottom: 0;
+}
+.geo
+{
+    display: inline;
+}
+.top-user-bar
+{
+    padding: 0 2px;
+    color:#707070;
+    font-weight: normal;
+    clear: none;
+}
+.top-user-bar a
+{
+    padding: 0 2px;
+    color:#707070;
+}
+.top-user-bar a i
+{
+    color: #b14916;
+}
+.top-user-bar a.cart-button
+{
+    color: #b14916;
+    font-size: 30px;
+    display: inline-block;
+    padding: 0 20px 0 0;
+
+}
+.top-user-bar a.cart-button .cart-count
+{
+    color: #fff;
+    background:#73b629;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Segoe UI bold;
+    margin-top: -2px;
+    margin-left: -8px;
+    position: absolute;
+    border-radius: 60px;
+    padding: 4px 6px;
+}
+
+.top-user-bar a.login
+{
+
+    font-size: 40px;
+}
+
+.top-user-bar a.login
+{
+    font-size: 30px;
+    color: #b14916;
+}
+
+
+
+.top-user-bar a.login span
+{
+    font-size: 20px;
+    height: 33px;
+    display: inline-block;
+    color:#707070;
+    font-weight: normal;
+    margin:0 10px 0 10px;
+    vertical-align: middle;
+    font-family: Segoe UI Regular;
+}
+
+.dropdown-menu
+{
+    width: 100%;
+    max-width: 100%;
+}
+.mobile-li .cart-count
+{
+    color: #707070;
+    background: #fefce7;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Segoe UI bold;
+    margin-left: 5px;
+    border-radius: 50%;
+    padding: 0 6px;
+    border: 1px solid #ccc;
+}
+
+
+.registry .top-user-bar
+{
+    text-align: left;
+}
+.registry .top-user-bar a.login
+{
+   color: #73b629;
+}
+
+.registry .dropdown-toggle::after
+{
+    display: none;
+}
+.registry .dropdown
+{
+    display: inline;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.registry .dropdown-menu
+{
+    background: #73b629;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    border-radius: 20px 20px;
+
+}
+.registry #dropdown-user-menu
+{
+    padding-bottom:  13px;
+}
+
+.registry .dropdown-menu:after
+{
+    border:15px solid transparent;
+    border-bottom-color:#73b629;
+    position:absolute;
+    bottom:100%;
+    margin:auto;
+    left: 0;
+    right: 0;
+    width: 20px;
+    content:'';
+
+}
+
+.registry .dropdown-menu a
+{
+    color: #fff;
+    margin: 5px 0;
+    padding: 3px 10px 3px 3px;
+
+}
+.registry .dropdown-menu a:hover,
+.registry .dropdown-menu a:focus
+{
+    color: #fff;
+    margin: 5px 5px 5px 0;
+    border-radius: 10px 10px;
+    background: #b14916;
+
+}
+.geo-registry
+{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.geo a,
+ .geo-registry a
+{
+    color: #b14916;
+    font-size: 25px;
+}
+ .geo span,
+ .geo-registry span
+ {
+    font-size: 20px;
+    height: 33px;
+    display: inline-block;
+    color:#707070;
+    font-weight: normal;
+    margin:0 0 0 5px;
+    vertical-align: middle;
+    font-family: Segoe UI Regular;
+}
+.social
+{
+    display: block;
+    padding-top:20px;
+    text-align: center;
+    width: 50%;
+}
+.social a
+{
+
+   padding: 10px;
+
+}
+.geo-registry a.vk i,
+.geo a.vk i,
+.social a.vk i
+{
+
+    background:#4973ad;
+    padding: 5px;
+    border-radius: 60px;
+    color: #fff;
+
+}
+.geo a.instagram i,
+.geo a.vk i
+{
+    display: none;
+}
+
+.geo-registry a.instagram i,
+.geo a.instagram i,
+.social a.instagram i
+{
+    background: #d6249f;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    padding: 5px;
+    border-radius: 60px;
+    color: #fff;
+}
+
+
+.nav
+{
+    padding-top: 10px;
+}
+
+.nav a
+{
+    color: #707070;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    color: #fff;
+    background-color: #73b629;
+}
+
+.menu-nav
+{
+    word-wrap: break-word;
+}
+
+.menu-nav .dropdown-menu a
+{
+    color: #fff;
+}
+.arrow-menu {
+    display: inline-block;
+    background: url(/images/icon/mark.png) left no-repeat;
+    height: 12px;
+    width: 16px;
+}
+
+.nav  li.dropdown:hover .arrow-menu
+{
+    background: url(/images/icon/mark_hover.png) left no-repeat;
+}
+
+.dropdown-menu>li>a {
+
+    white-space:normal;
+}
+
+.nav > li a:focus , .nav li.dropdown > a:hover
+{
+    background-color: #73b629;
+    color: #fff;
+    border: 0;
+}
+
+
+.nav li.dropdown:hover
+{
+    border-radius: 10px 10px 0 0;
+}
+
+
+.nav .open>a, .nav .open >a:focus, .nav .open>a:hover {
+    background-color: #73b629;
+    color: #fff;
+
+}
+.nav .open >a:focus .arrow-menu,
+.nav .open>a:hover .arrow-menu
+{
+    background: url(/images/icon/mark_hover.png) left no-repeat;
+}
+
+.navbar .dropdown-menu
+{
+
+    background-color: rgba(115,182,41,0.8);
+    color: #fff;
+    border-radius: 0;
+    font-size: 20px;
+    padding-top: 20px;
+    margin: 0;
+    border: 0;
+}
+.menu-nav .dropdown-menu a:hover
+{
+    background-color: #b14916;
+    color: #fff;
+    border-radius: 0;
+    margin: 0;
+    border: 1px solid #7f640d;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.navbar-toggle {
+    background-color: #b14916;
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+}
+
+
+.navbar-toggle-icon
+{
+    color: #fff;
+    width: 100%;
+}
+
+
+
+.navbar-nav
+{
+    padding: 10px;
+}
+.navbar .mobile-hr,
+.navbar .mobile-li
+{
+    display: none;
+}
+
+.delimiter hr
+{
+    border: 1px solid #b14916;
+    margin: 5px 0 0;
+}
+/* header close */
+
+
+/* slider */
+.carousel-inner img {
+    width:100%;
+    height:100%;
+}
+.carousel-indicators .active {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #b14916;
+    margin: 0;
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #b14916;
+    margin: 0;
+}
+.carousel-indicators li:hover {
+    cursor:pointer;
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(115,182,41,0.9);
+}
+.carousel-indicators  .active {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #b14916;
+    margin: 0;
+}
+.carousel-indicators  .active {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #b14916;
+    margin: 0;
+}
+.carousel-caption
+{
+  margin: auto;
+  font-family: Slimamif;
+}
+
+
+.carousel-caption h3
+{
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+.carousel-caption p
+{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0.9;
+    text-shadow: 1px 1px 2px black;
+}
+.carousel-caption hr
+{
+    max-width: 400px;
+    border: 1px solid #fff;
+}
+
+.carousel-caption {
+    transform: translateY(-80%);
+    bottom: 0;
+    top: 50%;
+}
+.caption-button
+{
+    padding: 20px;
+
+}
+.caption-button a.button
+{
+    background-color: #b14916;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: 1px solid #707070;
+    font-family: Segoe UI Regular;
+}
+.caption-button a.button:hover
+{
+    background-color:#73b629;
+
+}
+/* slider close */
+
+/* like category */
+
+
+.category
+{
+    text-align: center;
+    font-size: 20px;
+}
+.category .row
+{
+    padding-top: 50px;
+}
+.category h2
+{
+    font-size: 40px;
+    font-family: Segoe UI Semibold;
+    text-align: center;
+    font-weight: bold;
+    color: #707070;
+    text-transform: none;
+    padding-top: 40px;
+}
+
+.category hr
+{
+    border: 3px solid #b14916;
+    border-radius: 3px;
+    max-width: 300px;
+    background: #b14916;
+}
+.category .category-block
+{
+    max-width: 180px;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+.category .images-round
+{
+    padding: 30px;
+    border-radius: 50%;
+    background: #c8e3ac;
+}
+.category .images-round:hover
+{
+    background-color:#e7c7b8;
+}
+.category img {
+     width: auto;
+     max-height: 100px;
+ }
+
+.category p
+{
+    padding:30px 0;
+}
+.category a
+{
+    color: #707070;
+    text-decoration: none;
+}
+/* promotions */
+.promotions
+{
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+    background: #f1f0ee;
+    padding: 0 0 60px;
+}
+.promotions .row
+{
+    padding-top: 20px;
+}
+.promotions  h2
+{
+    font-size: 40px;
+    font-family: Segoe UI Semibold;
+    text-align: center;
+    font-weight: bold;
+    color: #707070;
+    text-transform: none;
+    padding-top: 40px;
+}
+
+.promotions  hr
+{
+    border: 3px solid #b14916;
+    border-radius: 3px;
+    max-width: 300px;
+    background: #b14916;
+}
+ .col-product
+{
+    margin-bottom: 60px;
+}
+
+.promotions .product
+{
+    padding: 0 10px;
+    width: 95%;
+    display: block;
+}
+.promotions .product-body
+{
+    border: 1px solid #707070;
+    background: #fff;
+    border-radius: 60px;
+    display: block;
+    z-index: 1000;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.product-body .product-title
+{
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+.product-body .product-title h3
+{
+    font-family: Segoe UI Semibold;
+    color:#73b629;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.product-body .product-title .code
+{
+    color: #707070;
+    font-size: 20px;
+
+}
+.product-body .product-images
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.product-body .product-images img
+{
+    width: auto;
+    max-height: 180px;
+}
+.product-body .product-footer
+{
+    padding: 30px;
+    margin: 0 auto;
+    width: 60%;
+}
+.product-body .value
+{
+    font-family: Segoe UI Semibold;
+    color:#73b629;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+.product-body .discount
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    bottom: 30px;
+    text-align: center;
+}
+.product-body .time-discount
+{
+    display: block;
+    position: absolute;
+    left: -30px;
+    bottom: -30px;
+    background-color: #b14916;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    color:#fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    font-family: Segoe UI Semibold;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.product-body .time-discount .title
+{
+    font-size: 12px;
+}
+.product-body .time-discount .number
+{
+    font-size: 26px;
+    display: block;
+
+}
+.product-body .time-discount .time
+{
+    display: block;
+}
+.product-select
+{
+    position: relative;
+    z-index: 1;
+    margin: -50px 0 0 0;
+    cursor: pointer;
+
+}
+
+.product-select .product-dropdown
+{
+    background:#73b629 ;
+    border-radius: 0 0 80px 80px;
+    border: 1px solid #707070;
+    color: #000;
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    height: 100px;
+    bottom: 1px;
+    text-align: center;
+    z-index: 10;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    display: block;
+    visibility: hidden;
+}
+.product-select .product-dropdown p
+{
+    margin: 60px 0 0 0;
+    color: #fff;
+    font-family: Segoe UI Semibold;
+}
+.product-select .dropdown-add .issue
+{
+    display: none;
+}
+.product-select .dropdown-add
+{
+    display: block;
+    visibility: visible;
+}
+.product-select .dropdown-add .add
+{
+    font-family: Segoe UI Regular;
+    display: block;
+    color:#707070;
+    font-size: 16px;
+}
+
+.product-select .dropdown-add .add .round-icon
+{
+    background: #fefce7;
+    font-size: 12px;
+    font-style: normal;
+    position: absolute;
+    border-radius: 50%;
+    padding: 0 8px;
+    border: 1px solid #707070;
+}
+.product-select .dropdown-add .add .indentation
+{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.product-select .dropdown-add
+{
+    background: #e7c7b8;
+}
+.product-dropdown .add
+{
+    display: none;
+}
+
+.col-product:hover  .product-select .product-dropdown
+{
+    display: block;
+    visibility: visible;
+}
+/* promotions close */
+
+
+/* footer */
+.footer-images{
+    background-image:url('../images/bg.jpg');
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+}
+.footer-form
+{
+    padding: 140px 0;
+}
+.footer-form
+{
+color:#fff;
+}
+
+.footer-form h2
+{
+    color: #fff;
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Segoe UI Regular;
+    text-transform: none;
+    font-size: 40px;
+}
+.form-subscription .form-control
+{
+    width: 100%;
+
+}
+.form-subscription .input-group
+{
+    width: 60%;
+    margin: 0;
+    padding:0;
+}
+.form-subscription .input-group .form-control
+{
+    background: rgba(255,255,255, 0.8);
+    border: 1px solid #707070;
+    float: none;
+    padding: 23px 20px;
+    border-radius: 30px 30px;
+    box-shadow: none;
+    width: 83.333333%;
+    color: #707070;
+}
+.form-subscription .input-group  input
+{
+    background: #9b999a;
+    border: 1px solid  #707070;;
+}
+
+.form-subscription .input-group  input:focus
+{
+    box-shadow: none;
+}
+.form-subscription .subscription-button
+{
+
+    background: rgba(255,255,255, 0.8);
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 1px solid  #707070;;
+}
+
+.form-subscription  .subscription-button i
+{
+    display: inline-block;
+    padding: 14px 10px;
+    color: #707070;
+}
+
+
+.menu-footer
+{
+    background: rgba(85,85,85,0.6);
+    border: 1px solid #6f7170;
+    padding: 50px 0;
+
+}
+
+.bottom-menu h3, .bottom-menu .h3 {
+    color: #fff;
+    font-size: 16px;
+    font-family: Segoe UI Semibold;
+    text-decoration: underline;
+    text-transform: none;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.bottom-menu
+{
+    padding: 10px 0;
+}
+.bottom-menu ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+.bottom-menu ul li a {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.footer-bottom
+{
+    width: 100%;
+    background: #575757;
+}
+
+.footer-block p
+{
+   color: #fff;
+   margin: 1rem 0;
+}
+
+
+.social-bottom
+{
+    text-align: right;
+}
+
+.social-bottom a
+{
+
+    padding: 10px;
+
+}
+
+.social-bottom a.vk i
+{
+
+    background:#4973ad;
+    padding: 5px;
+    border-radius: 60px;
+    color: #fff;
+
+}
+
+
+
+.social-bottom a.instagram i
+{
+    background: #d6249f;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    padding: 5px;
+    border-radius: 60px;
+    color: #fff;
+}
+
+
+
+
