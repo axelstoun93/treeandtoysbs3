@@ -93,6 +93,7 @@ a:hover
     width: 83.333333%;
     border: none;
     box-shadow: none;
+    float: left;
 }
 
 .form-search .input-group  input
@@ -157,6 +158,11 @@ a:hover
     display: inline-block;
     padding: 0 20px 0 0;
 
+}
+.top-user-bar a:hover,
+.top-user-bar a:focus
+{
+    text-decoration: none;
 }
 .top-user-bar a.cart-button .cart-count
 {
@@ -876,6 +882,10 @@ a:hover
 {
 color:#fff;
 }
+.footer-form p
+{
+   margin: 15px 0 15px 0;
+}
 
 .footer-form h2
 {
@@ -902,12 +912,12 @@ color:#fff;
 {
     background: rgba(255,255,255, 0.8);
     border: 1px solid #707070;
-    float: none;
     padding: 23px 20px;
     border-radius: 30px 30px;
     box-shadow: none;
     width: 83.333333%;
     color: #707070;
+    float: left;
 }
 .form-subscription .input-group  input
 {
@@ -1017,5 +1027,168 @@ color:#fff;
 }
 
 
+
+
+/* modal */
+
+.modal {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.modal-dialog {
+    max-width: 450px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+
+.modal h5 {
+    font-size: 24px;
+    color: #779c2b;
+    font-family: Segoe UI bold;
+
+}
+
+.modal-header
+{
+    padding: 40px 10px 10px 10px;
+    border: none;
+}
+.modal-content
+{
+    padding: 0 20px;
+    border-radius: 40px;
+}
+.modal-content .close
+{
+    height: 32px;
+    width: 32px;
+    display: block;
+    position: relative;
+    font-size:24px ;
+    font-family: Segoe UI bold;
+    font-weight: normal;
+    background: #779c2b;
+    border-radius: 50%;
+    opacity: .5;
+    margin: 10px;
+}
+.modal-content
+{
+    color:#575757;
+    font-family: Segoe UI Regular;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+.modal-content label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.modal-bottom-close
+{
+    position: absolute;
+    display: block;
+    right: 10px;
+    top: 10px;
+}
+
+.modal .btn-modal
+{
+    color: #fff;
+    border-radius: 30px;
+    background: #779c2b;
+    font-size: 20px;
+    padding: 0 20px 5px 20px;
+    opacity: 1;
+    text-transform: lowercase;
+}
+.modal .btn-modal i
+{
+    vertical-align: middle;
+    font-size: 20px;
+}
+.modal .btn-modal:hover,
+.modal .btn-modal:focus
+{
+    opacity: 1;
+}
+
+.modal-content .forgot-password
+{
+    display: block;
+    text-align: right;
+    padding: 0 20px 0 0;
+    margin-top: -10px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    color: #ccc;
+    text-decoration: underline;
+}
+.modal-content .forgot-password:hover,
+.modal-content .forgot-password:focus
+{
+
+    color: #575757;
+
+}
+.modal-content .form-control
+{
+    border-radius: 40px;
+    height: 40px;
+    border: 1px solid #575757;
+}
+.modal-content .close:hover
+{
+    opacity: 1.0;
+}
+.modal-content .round {
+    color: #fff;
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    top: 1px;
+    right: 0;
+    bottom: 0;
+}
+.modal-content .round {
+    color: #fff;
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    top: 1px;
+    right: 0;
+    bottom: 0;
+}
+
+.modal-footer {
+    border-top: none;
+    text-align: left;
+    padding: 0 0 30px 0;
+}
+
+.modal-footer .btn-modal {
+
+    padding: 0 20px 5px 20px;
+    text-transform: lowercase;
+}
+
+
+
+.modal-footer .registry-bottom
+{
+    padding: 10px 0;
+
+}
+.modal hr
+{
+     border: 3px solid #59b560;
+     margin-bottom: 5px;
+}
 
 

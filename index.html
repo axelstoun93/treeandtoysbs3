@@ -52,7 +52,7 @@
                                             <a href="#" class="vk" ><i class="fa fa-vk" ></i></a>
                                         </div>
                                         <a href="#"  class="cart-button cart el-icon-shopping-cart"><i class="cart-count">0</i></a>
-                                        <a href="#" class="login fa fa-sign-in"><span>Войти</span></a>
+                                        <a href="#" class="login fa fa-sign-in"  data-toggle="modal" data-target="#loginModel"><span>Войти</span></a>
                                     </div>
                                     <div class="social">
                                         <a href="#" class="instagram" ><i class="fa fa-instagram"></i></a>
@@ -131,7 +131,7 @@
                        <a href="#" class="vk" ><i class="fa fa-vk" ></i></a>
                </div>
                <a href="#"  class="cart cart-button el-icon-shopping-cart"><i class="cart-count">0</i></a>
-               <a href="#" class="login fa fa-sign-in"><span>Войти</span></a>
+               <a href="#" class="login fa fa-sign-in" data-toggle="modal" data-target="#loginModel"><span>Войти</span></a>
                </div>
                     <div class="social">
                         <a href="#" class="instagram" ><i class="fa fa-instagram" ></i></a>
@@ -195,7 +195,7 @@
                             </li>
                                 <hr class="mobile-hr">
                                 <li class="mobile-li">
-                                    <a class="nav-link disabled" href="#"><i class="fa fa-sign-in"></i> Вход в личный кабинет</a>
+                                    <a class="nav-link disabled" href="#" data-toggle="modal" data-target="#loginModel"><i class="fa fa-sign-in"></i> Вход в личный кабинет</a>
                                 </li>
                                 <li class="mobile-li">
                                     <a class="nav-link disabled" href="#"><i class="fa fa-shopping-cart"></i> Корзина <i class="cart-count">0</i></a>
@@ -601,11 +601,13 @@
     </div>
 </footer>
 
+
+
 <!-- /footer-->
 <script src="js/jquery/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/prefixfree.min.js"></script>
-<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.validate.js"></script>
 <script src="js/owl.carousel/owl.carousel.min.js"></script>
 <script src="js/selectric/jquery.selectric.min.js"></script>
 <script src="js/checkator/fm.checkator.jquery.js"></script>
@@ -615,5 +617,145 @@
 <script src="js/jquery.cookie.js"></script>
 <script src="js/theme.js"></script>
 <script src="js/basket.js"></script>
+<script src="js/validateForm.js"></script>
+
+
+
+
+<!-- modal -->
+
+<!-- Modal -->
+<div class="modal" id="registerModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+            <div class="modal-bottom-close">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="round" aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-header">
+                <h5 class="modal-title">Регистрация</h5>
+            </div>
+            <div class="modal-body">
+                <form id="register-form">
+                    <div class="form-group">
+                        <label for="email">Ваша электронная почта <span class="color-red">*</span></label>
+                        <input name="email" type="email" class="form-control"  id="email"  placeholder="Ваша email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Пароль <span class="color-red">*</span></label>
+                        <input name="password" type="password" class="form-control"  id="password"  placeholder="Ваша пароль" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password_again">Повторите пароль <span class="color-red">*</span></label>
+                        <input name="password_again" type="password" class="form-control"  id="password_again"  placeholder="Повторите пароль" required>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-modal">Зарегистрироваться</button>
+                    </div>
+
+                </form>
+            </div>
+            <hr>
+            <div class="modal-footer">
+                <h5>Зарегистрированы?</h5>
+                <div class="text-center registry-bottom">
+                    <button type="button" class="btn btn-modal loginButton">Авторизация <i class="fa fa-sign-in"> </i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" id="loginModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+          <div class="modal-bottom-close">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span class="round" aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+            <div class="modal-header">
+                <h5 class="modal-title">Вход в личный кабинет</h5>
+            </div>
+            <div class="modal-body">
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="loginEMail">Ваша электронная почта <span class="color-red">*</span></label>
+                        <input name="email" type="text" class="form-control"  id="loginEMail"  placeholder="Ваша email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Пароль <span class="color-red">*</span></label>
+                        <a href="#" class="forgot-password" id="forgot-password">Забыли пароль?</a>
+                        <input name="password" type="password" class="form-control"  id="loginPassword"  placeholder="Ваша пароль" required>
+                    </div>
+                    <div class="text-center">
+                    <button type="submit" class="btn btn-modal">Войти <i class="fa fa-sign-in"> </i></button>
+                    </div>
+
+                </form>
+            </div>
+            <hr>
+            <div class="modal-footer">
+                <h5>Не зарегистрированы?</h5>
+                <div class="text-center registry-bottom">
+                 <button type="button" class="btn btn-modal registerButton">Регитсрация</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="modal" id="fagotPassword" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+            <div class="modal-bottom-close">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="round" aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-header">
+                <h5 class="modal-title">Васстановление пароля</h5>
+            </div>
+            <div class="modal-body">
+                <form id="fagot-form">
+                    <div class="form-group">
+                        <label for="fagotEmail">Ваша электронная почта <span class="color-red">*</span></label>
+                        <input name="email" type="email" class="form-control"  id="fagotEmail"  placeholder="Ваша email" required>
+                    </div>
+                    <div class="text-center">
+                    <button type="submit" class="btn btn-modal">Восстановить пароль</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <h5>Вспомнили пароль?</h5>
+                <div class="text-center registry-bottom">
+                    <button type="button" class="loginButton btn btn-modal">Авторизация <i class="fa fa-sign-in"> </i></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
 </body>
 </html>

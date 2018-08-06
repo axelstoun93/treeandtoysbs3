@@ -504,3 +504,29 @@
         box-shadow: none;
     }
 }
+
+
+/*modal*/
+@media (max-width: 480px) {
+    .modal label
+    {
+        display: none;
+    }
+    .modal h5 {
+        font-size: 18px;
+        color: #779c2b;
+        font-family: Segoe UI bold;
+    }
+
+    .modal-content .form-control {
+        border-radius: 40px;
+        height: 30px;
+        border: 1px solid #575757;
+    }
+    .modal .btn-modal i,
+    .modal .btn-modal
+    {
+        font-size: 18px;
+    }
+
+}
