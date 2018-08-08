@@ -37,7 +37,7 @@
     }
     .top-search
     {
-        padding-top: 20px;
+        padding: 20px 30px 0 30px;
     }
     .geo a.instagram i,
     .geo a.vk i
@@ -91,11 +91,7 @@
     {
         font-size: 20px;
     }
-    .top-left,
-    .top-right
-    {
-        padding-top: 20px;
-    }
+
 
     .form-search .input-group .form-control
     {
@@ -130,11 +126,7 @@
     {
         font-size: 18px;
     }
-    .top-left,
-    .top-right
-    {
-        padding-top: 20px;
-    }
+
 
     .form-search .input-group .form-control
     {
@@ -178,7 +170,27 @@
         display:block;
     }
     .top-search {
-        padding: 10px 0;
+        padding: 10px 20px;
+    }
+    .top-user-bar .geo-location,
+    .top-user-bar a.cart-button,
+    .top-user-bar .login
+
+    {
+        display: none;
+    }
+
+    .geo-registry a.instagram i,
+    .geo a.instagram i,
+    .social a.instagram i
+    {
+        font-size: 22px;
+    }
+    .geo-registry a.vk i,
+    .geo a.vk i,
+    .social a.vk i
+    {
+        font-size: 22px;
     }
 }
 
@@ -469,7 +481,7 @@
     }
     .form-subscription .input-group .form-control
     {
-        width: 75%;
+        width: 82%;
         box-shadow: none;
     }
     .footer-block
@@ -496,7 +508,7 @@
     }
 
 }
-@media (max-width: 360px)
+@media (max-width: 480px)
 {
     .form-subscription .input-group .form-control
     {
