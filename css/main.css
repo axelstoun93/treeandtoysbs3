@@ -672,13 +672,13 @@ a:hover
     margin-bottom: 60px;
 }
 
-.promotions .product
+.product
 {
     padding: 0 10px;
     width: 95%;
     display: block;
 }
-.promotions .product-body
+.product-body
 {
     border: 1px solid #707070;
     background: #fff;
@@ -924,7 +924,7 @@ color:#fff;
 .form-subscription .input-group  input
 {
     background: #9b999a;
-    border: 1px solid  #707070;;
+    border: 1px solid  #707070;
 }
 
 .form-subscription .input-group  input:focus
@@ -1194,3 +1194,430 @@ color:#fff;
 }
 
 
+/* breadcrumb */
+.breadcrumb-block
+{
+    padding: 20px 0 0 0;
+}
+.breadcrumb
+{
+     background-color: #fff;
+    color: #707070;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #707070;
+    content: "\003e";
+}
+/* breadcrumb close */
+/* catalog */
+.catalog h2
+{
+    color:#73b629;
+    font-size: 30px;
+    font-weight: bold;
+}
+.catalog .col-product {
+     margin-bottom: 15px;
+ }
+
+.catalog .product
+{
+    width: 100%;
+}
+.filter-block,.product-block
+{
+    padding: 10px 0;
+}
+.form-sort
+{
+    font-weight: normal;
+}
+.form-group
+{
+    vertical-align: middle;
+}
+.catalog .form-control
+{
+    height: auto;
+}
+.form-sort
+{
+    padding: 0 20px;
+}
+.form-sort label,
+.form-sort select
+{
+    display: inline-block;
+    width: auto;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.form-sort select
+{
+    border: none;
+    color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    background: #75b529;
+    text-transform: lowercase;
+    border-radius: 10px;
+    box-shadow: none;
+
+}
+.form-sort option{
+    background: #75b529;
+    color: #fff;
+    width: 150px;
+}
+.form-sort .select-block
+{
+    padding: 0 20px 0 0;
+    display: inline-block;
+    border-radius: 10px;
+    background: #75b529;
+    text-align: center;
+    position: relative;
+
+}
+.form-sort .arrow-sort
+{
+
+    display: inline-block;
+    background: url(/images/icon/mark_hover.png) left no-repeat;
+    height: 11px;
+    width: 15px;
+
+}
+
+.form-sort .select-block i
+{
+    position: absolute;
+    right: 10px;
+    top:14px;
+    color: #fff;
+}
+
+
+.catalog .filter-block
+{
+    padding: 0 40px 0 0;
+}
+
+.form-filter
+{
+    border: 1px solid #83a45d;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #707070;
+
+}
+.form-filter label
+{
+    font-size: 24px;
+    font-weight: normal;
+    padding: 0 10px;
+
+}
+.form-filter .end-block
+{
+    border-bottom: 1px solid #83a45d;
+    border-radius: 10px;
+}
+.form-filter .filter-bottom .btn-product
+{
+    width: 260px;
+    border: 1px solid #73b629;
+    color: #73b629;
+    background: none;
+    border-radius: 30px;
+    padding: 15px 0;
+    margin: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.form-filter .filter-bottom .btn-product:hover,
+.form-filter .filter-bottom .btn-product:focus
+{
+    background: #73b629;
+    color: #fff;
+}
+
+.form-filter .filter-bottom
+{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.form-filter hr
+{
+    border-top: 1px solid #83a45d;
+    border-radius: 10px;
+    padding: 0 0 15px 0;
+    margin: 0;
+}
+.form-filter .group-label
+{
+    color: #707070;
+    width: 100%;
+    padding: 10px 0 20px;
+}
+.form-filter .group-label:first-child {
+    padding: 20px 0 20px;
+}
+.form-filter .block-label
+{
+    text-align: left;
+    position: relative;
+}
+.form-filter .block-label i
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+.form-filter .arrow-filter
+{
+
+    display: inline-block;
+    background: url(/images/icon/mark_filter.png) left no-repeat;
+    height: 12px;
+    width: 20px;
+}
+.form-filter .group-filter
+{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    padding: 10px 0 20px;
+}
+.form-filter .group-block
+{
+    padding: 10px 0 20px;
+}
+.form-filter .group-filter .group-price
+{
+    text-align: center;
+    letter-spacing : -.36em;
+
+}
+.form-filter .group-price span
+{
+
+    letter-spacing: 0;
+}
+.form-filter .group-price .rub
+{
+
+    display: inline-block;
+    background: url(/images/icon/rub.png) left no-repeat;
+    height: 14px;
+    width: 14px;
+
+}
+.form-filter .group-price div
+{
+
+    width: 130px;
+    display: inline-block;
+    border: 1px solid #78b17e;
+    border-radius: unset;
+}
+.form-filter .group-price input
+{
+
+    width: 80px;
+    display: inline-block;
+    border: none;
+    border-radius: unset;
+    text-align: center;
+    margin:0;
+    font-size: 16px;
+}
+.form-filter .group-block
+{
+    position: relative;
+    display: block;
+}
+.form-filter .group-block select
+{
+    width: 260px;
+    margin: 0 auto;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #78b17e;
+    font-size: 16px;
+
+
+}
+
+.range-slider
+{
+    padding: 0 15px;
+    text-align: center;
+
+}
+
+.range-slider .irs-max,
+.range-slider .irs-single,
+.range-slider .irs-min,
+.range-slider .irs-to,
+.range-slider .irs-from
+{
+    display: none;
+}
+.range-slider .irs
+{
+    padding-top: 0;
+    margin: 0 auto;
+    height: 15px;
+    max-width: 260px;
+}
+.range-slider .irs-bar,
+.range-slider .irs-bar-edge,
+.range-slider .irs-shadow .shadow-single,
+.range-slider .irs-slider .single,
+.range-slider .irs-line
+{
+    top:0;
+    height: 5px;
+}
+.range-slider .irs-slider
+{
+    top:-5px;
+    width: 15px;
+    height: 15px;
+}
+
+.range-slider .irs-bar,
+.range-slider .irs-bar-edge
+{
+    background:#73b629;
+    border: 1px solid #73b629;
+}
+.range-slider .irs-slider
+{
+    background: #73b629;
+}
+.range-slider .irs-slider:hover,
+.range-slider .irs-slider.state_hover,
+.range-slider .irs-slider:focus
+{
+    background: #b14916;
+}
+
+.checkbox-sale
+{
+    text-align: center;
+    position: relative;
+}
+
+.checkbox-sale label
+{
+    font-size: 19px;
+}
+
+.group-block .checkbox-sale
+{
+    text-align: left;
+    position: relative;
+}
+.group-block .checkbox-container,
+.group-filter .checkbox-container
+{
+    max-width: 260px;
+    margin: 0 auto;
+    padding: 3px 0;
+}
+
+
+/* Customize the label (the container) */
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+}
+
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.checkmark {
+    display: inline-block;
+    margin-bottom: -2px;
+    height: 18px;
+    width: 18px;
+    border: 1px solid #83a45d;
+}
+
+
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+
+.checkbox-container input:checked ~ .checkmark {
+
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+
+.checkbox-container .checkmark:after {
+    width: 5px;
+    height: 10px;
+    border: solid #83a45d;
+    margin: 2px 0px 0 5px;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.paginate-catalog .pagination>li>a,
+.paginate-catalog.pagination>li>span
+{
+    border-radius: 50% !important;margin: 0 5px;
+    background-color: #779b2d;
+    border-color: #779b2d;
+    color: #fff;
+}
+.paginate-catalog .pagination>li>a:hover,
+.paginate-catalog.pagination>li>span:hover,
+.paginate-catalog .pagination>li>a:focus,
+.paginate-catalog.pagination>li>span:focus
+{
+    border-radius: 50% !important;margin: 0 5px;
+    background: #b14916;
+    border-color: #b14916;
+    color: #fff;
+}

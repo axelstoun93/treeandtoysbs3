@@ -17,6 +17,12 @@
     <link href="/css/main.css" rel="stylesheet">
     <link href="/css/media.css" rel="stylesheet">
 
+
+    <!-- catalog -->
+    <link href="/assets/range.slider/css/ion.rangeSlider.css" rel="stylesheet">
+    <link href="/assets/range.slider/css/ion.rangeSlider.skinHTML5.css" rel="stylesheet">
+    <!-- /catalog -->
+
     <link rel="icon" href="images/icon/icon-32x32.png" sizes="32x32" />
     <link rel="icon" href="images/icon/icon-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="images/icon/icon-180x180.png" />
@@ -44,28 +50,23 @@
                 <div class="col-12 col-lg-3 visible-xs visible-sm top-logo">
                     <a href="" class="logo"><img src="/images/logo.png"></a>
                 </div>
+                <div class="col-md-12 col-lg-4 visible-xs visible-sm top-right" >
+                    <div class="top-user-bar">
+                        <div class="geo">
+                            <a href="#" class="geo-location el-icon-globe-alt"><span>г.Санкт-Петербург</span></a>
+                            <a href="#" class="vk" ><i class="fa fa-vk" ></i></a>
+                            <a href="#" class="instagram" ><i class="fa fa-instagram" ></i></a>
+                        </div>
+                        <a href="#" class="login fa fa-sign-in"  data-toggle="modal" data-target="#loginModel"><span>Войти</span></a>
+                        <a href="#"  class="cart-button cart el-icon-shopping-cart"><i class="cart-count">0</i></a>
+                    </div>
+                    <div class="social">
+                        <a href="#" class="vk" ><i class="fa fa-vk"></i></a>
+                        <a href="#" class="instagram" ><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
 
 
-
-              <div class="col-md-12 col-md-4 col-lg-4  visible-sm top-right registry" >
-                  <div class="top-user-bar">
-                      <div class="geo-registry">
-                          <a href="#" class="el-icon-globe-alt"><span>г.Санкт-Петербург</span></a>
-                          <a href="#" class="instagram" ><i class="fa fa-instagram"></i></a>
-                          <a href="#" class="vk" ><i class="fa fa-vk" ></i></a>
-                      </div>
-                      <a href="#"  class="cart cart-button el-icon-shopping-cart"><i class="cart-count">1</i></a>
-                      <div class="dropdown" id="dropdown-user-top">
-                          <a href="#" class="login el-icon-user dropdown-toggle"  role="button" id="dropdown-user-menu-top" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Надежда Витальевна</span></a>
-                          <div class="dropdown-menu" aria-labelledby="dropdown-user-menu">
-                              <a class="dropdown-item" href="#">Личные данные</a>
-                              <a class="dropdown-item" href="#">Избранное</a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">Выход</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
 
 
 
@@ -108,29 +109,24 @@
                     <a href="" class="logo"><img src="/images/logo.png"></a>
                 </div>
 
+                <div class="col-md-12 col-md-4 col-lg-4 visible-md visible-lg  top-right"  style="display: none">
+                    <div class="top-user-bar">
+                        <div class="geo">
+                            <a href="#" class="el-icon-globe-alt"><span>г.Санкт-Петербург</span></a>
+                            <a href="#" class="vk" ><i class="fa fa-vk" ></i></a>
+                            <a href="#" class="instagram" ><i class="fa fa-instagram" ></i></a>
+                        </div>
+                        <a href="#" class="login fa fa-sign-in" data-toggle="modal" data-target="#loginModel"><span>Войти</span></a>
+                        <a href="#"  class="cart cart-button el-icon-shopping-cart"><i class="cart-count">0</i></a>
+                    </div>
+                    <div class="social">
+                        <a href="#" class="vk" ><i class="fa fa-vk" ></i></a>
+                        <a href="#" class="instagram" ><i class="fa fa-instagram" ></i></a>
+                    </div>
+                </div>
 
 
 
-
-              <div class="col-md-12 col-md-4 col-lg-4 visible-md visible-lg  top-right registry" >
-                  <div class="top-user-bar">
-                  <div class="geo-registry">
-                          <a href="#" class="el-icon-globe-alt"><span>г.Санкт-Петербург</span></a>
-                          <a href="#" class="instagram" ><i class="fa fa-instagram"></i></a>
-                          <a href="#" class="vk" ><i class="fa fa-vk" ></i></a>
-                  </div>
-                   <a href="#" id="cart" class="cart cart-button el-icon-shopping-cart"><i class="cart-count">0</i></a>
-                      <div class="dropdown" id="dropdown-user">
-                      <a href="#" class="login el-icon-user dropdown-toggle"  role="button" id="dropdown-user-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Надежда Витальевна</span></a>
-                      <div class="dropdown-menu" aria-labelledby="dropdown-user-menu">
-                          <a class="dropdown-item" href="#">Личные данные</a>
-                          <a class="dropdown-item" href="#">Избранное</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Выход</a>
-                      </div>
-                      </div>
-                  </div>
-                   </div>
 
 
 
@@ -164,7 +160,7 @@
                             </li>
                             <hr class="mobile-hr">
                             <li class="mobile-li">
-                                <a class="nav-link disabled" href="#" ><i class="el-icon-user"></i> Личный кабинет</a>
+                                <a class="nav-link disabled" href="#" data-toggle="modal" data-target="#loginModel"><i class="fa fa-sign-in"></i> Вход в личный кабинет</a>
                             </li>
                             <li class="mobile-li">
                                 <a class="nav-link disabled" href="#"><i class="fa fa-shopping-cart"></i> Корзина <i class="cart-count">0</i></a>
@@ -193,114 +189,125 @@
     </header>
 </div>
 
-<!-- sibebar -->
-<div id="mainslider" class="carousel slide" data-ride="carousel" data-interval="500000">
-    <!-- Indicators -->
-
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="images/banner.jpg">
-            <div class="carousel-caption hidden-xs">
-                <h3>Игрушки</h3>
-                <hr>
-                <p>у которых <br> есть душа</p>
-                <div class="caption-button">
-                    <a href="" class="button">Купить <i class="fa fa-angle-double-right"></i></a>
-                </div>
-
-            </div>
-        </div>
-        <div class="item">
-            <img src="images/banner.jpg">
-            <div class="carousel-caption hidden-xs">
-                <h3>Игрушки</h3>
-                <hr>
-                <p>у которых <br> есть душа</p>
-                <div class="caption-button">
-                    <a href="" class="button">Купить <i class="fa fa-angle-double-right"></i></a>
-                </div>
-
-            </div>
-        </div>
-
-
-        <ol class="carousel-indicators">
-            <li data-target="#mainslider" data-slide-to="0" class="active"></li>
-            <li data-target="#mainslider" data-slide-to="1"></li>
+<div class="breadcrumb-block">
+    <div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Главная</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Каталог</li>
         </ol>
+    </nav>
     </div>
+</div>
 
-    <!-- Controls -->
-    <!--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>-->
-</div><!-- /#mainslider -->
-<!-- /sibebar -->
+<!-- catalog -->
+<section class="catalog">
+    <div class="container">
+        <div class="row">
 
-<!-- category -->
-<section class="category">
-    <div class="container">
-        <h2>Лучшие категории</h2>
-        <hr>
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-offset-1 col-lg-2">
-                <div class="category-block">
-                    <div class="images-round">
-                        <img src="images/icon/pyramid.png"  data-img-out="images/icon/pyramid.png" data-img-hover="images/icon/pyramid-hover.png">
+            <div class="col-md-4 col-lg-4 filter-block">
+                <h2>Каталог товаров</h2>
+
+                <form class="form-filter">
+                    <div class="group-label">
+                       <div class="block-label"><label for="min-price">Основная цена</label><i class="arrow-filter"></i></div>
                     </div>
-                    <p>Пирамидки и шнуровки</p>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
-                <div class="category-block">
-                    <div class="images-round">
-                        <img src="images/icon/puzzles.png" data-img-out="images/icon/puzzles.png" data-img-hover="images/icon/puzzles-hover.png">
+                    <hr>
+                    <div class="group-filter">
+                        <div class="group-price">
+                                <div class="div-price"><span>от</span><input type="text" class="form-control" name="min-price" id="min-price"><span><i class="rub"></i></span></div>
+                                <div class="div-price"><span>до</span><input type="text" class="form-control" name="max-price" id="max-price"><span><i class="rub"></i></span></div>
+                        </div>
+                        <div class="range-slider">
+                            <input type="text" id="rangePrice" value="" />
+                        </div>
+                         <div class="checkbox-sale">
+                             <label class="checkbox-container">
+                                 <input type="checkbox" name="sale">
+                                 <span class="checkmark"></span>
+                                 Только товары со скидкой
+                             </label>
+                         </div>
                     </div>
-                    <p>Пазлы</p>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
-                <div class="category-block">
-                    <div class="images-round">
-                        <img src="images/icon/cubes.png"  data-img-out="images/icon/cubes.png" data-img-hover="images/icon/cubes-hover.png">
+                    <hr>
+                    <div class="group-label">
+                        <div class="block-label"><label for="category">Категория</label><i class="arrow-filter"></i></div>
                     </div>
-                    <p>Конструкторы и кубики</p>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
-                <div class="category-block">
-                    <div class="images-round">
-                        <img src="images/icon/yule.png" data-img-out="images/icon/yule.png" data-img-hover="images/icon/yule-hover.png">
+                    <hr>
+                    <div class="group-filter">
+                        <div class="group-block">
+                        <select class="form-control" name="category" id="category">
+                            <option>Пирамидки и шнуровки</option>
+                            <option>Пазлы</option>
+                            <option>Конструкторы и кубики</option>
+                            <option>Головоломки</option>
+                            <option>Музыкальные инструменты</option>
+                        </select>
+                        </div>
                     </div>
-                    <p>Головоломки</p>
-                </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
-                <div class="category-block">
-                    <div class="images-round">
-                        <img src="images/icon/musical.png" data-img-out="images/icon/musical.png" data-img-hover="images/icon/musical-hover.png">
+                    <hr>
+                    <div class="group-label">
+                        <div class="block-label"><label for="category">Пол</label><i class="arrow-filter"></i></div>
                     </div>
-                    <p>Музыкальные инструменты</p>
-                </div>
+                    <hr>
+                    <div class="group-block">
+                        <div class="checkbox-sale">
+                            <label class="checkbox-container">
+                                <input type="checkbox" name="girls">
+                                <span class="checkmark"></span>
+                                Девочки
+                            </label>
+                        </div>
+                        <div class="checkbox-sale">
+                            <label class="checkbox-container">
+                                <input type="checkbox" name="boys">
+                                <span class="checkmark"></span>
+                                Мальчики
+                            </label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="group-label">
+                        <div class="block-label"><label for="min-age">Возраст</label><i class="arrow-filter"></i></div>
+                    </div>
+                    <hr>
+                    <div class="group-filter end-block">
+                        <div class="group-price">
+                            <div class="div-price"><span>от</span><input type="text" class="form-control" name='min-age' id="min-age"></div>
+                            <div class="div-price"><span>до</span><input type="text" class="form-control" name='max-age' id="max-age"></div>
+                        </div>
+                        <div class="range-slider">
+                            <input type="text" id="rangeAge" value=""/>
+                        </div>
+                    </div>
+
+                    <div class="filter-bottom">
+                        <button class="btn-product">Показать товары</button>
+                        <button class="btn-product" id="reset-filter">Сбросить фильтры</button>
+                    </div>
+
+
+                </form>
+
             </div>
-        </div>
-    </div>
-</section>
-<!-- /category -->
-<!-- promotions -->
-<section class="promotions">
-    <div class="container">
-        <h2>Акции</h2>
-        <hr>
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-product">
+
+
+            <div class="col-md-8 col-lg-8 product-block">
+            <div class="col-lg-12 text-right">
+                <form class="form-sort">
+                <div class="form-group">
+                    <label for="sort">Сортировать по</label>
+                    <div class="select-block" >
+                    <select class="form-control" id="sort">
+                        <option>новые</option>
+                        <option>старые</option>
+                    </select>
+                        <i class="arrow-sort"></i>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="col-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-2 col-lg-6 col-lg-offset-0 col-product">
                 <div class="product" id="product-1">
                     <div class="product-body">
                         <div class="product-title">
@@ -313,11 +320,6 @@
                         <div class="product-footer">
                             <div class="discount">Скидка 15%</div>
                             <div class="value"> 1999 <i class="fa fa-rub"></i></div>
-                            <div class="time-discount" >
-                                <span class="title">До конца осталось</span>
-                                <span class="number">6</span>
-                                <span class="time">дней</span>
-                            </div>
                         </div>
                     </div>
                     <div class="product-select">
@@ -328,7 +330,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-product">
+            <div class="col-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-2 col-lg-6 col-lg-offset-0 col-product">
                 <div class="product" id="product-2">
                     <div class="product-body">
                         <div class="product-title">
@@ -341,11 +343,6 @@
                         <div class="product-footer">
                             <div class="discount">Скидка 15%</div>
                             <div class="value"> 249 <i class="fa fa-rub"></i></div>
-                            <div class="time-discount" >
-                                <span class="title">До конца осталось</span>
-                                <span class="number">6</span>
-                                <span class="time">дней</span>
-                            </div>
                         </div>
                     </div>
                     <div class="product-select">
@@ -356,7 +353,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-product">
+            <div class="col-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-2 col-lg-6 col-lg-offset-0 col-product">
                 <div class="product" id="product-3">
                     <div class="product-body">
                         <div class="product-title">
@@ -369,11 +366,6 @@
                         <div class="product-footer">
                             <div class="discount">Скидка 15%</div>
                             <div class="value"> 249 <i class="fa fa-rub"></i></div>
-                            <div class="time-discount" >
-                                <span class="title">До конца осталось</span>
-                                <span class="number">6</span>
-                                <span class="time">дней</span>
-                            </div>
                         </div>
                     </div>
                     <div class="product-select">
@@ -384,7 +376,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-product">
+            <div class="col-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-2 col-lg-6 col-lg-offset-0 col-product">
                 <div class="product" id="product-4">
                     <div class="product-body">
                         <div class="product-title">
@@ -397,11 +389,6 @@
                         <div class="product-footer">
                             <div class="discount">Скидка 15%</div>
                             <div class="value"> 1999 <i class="fa fa-rub"></i></div>
-                            <div class="time-discount" >
-                                <span class="title">До конца осталось</span>
-                                <span class="number">6</span>
-                                <span class="time">дней</span>
-                            </div>
                         </div>
                     </div>
                     <div class="product-select">
@@ -412,7 +399,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-product">
+            <div class="col-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-2 col-lg-6 col-lg-offset-0 col-product">
                 <div class="product" id="product-5">
                     <div class="product-body">
                         <div class="product-title">
@@ -425,11 +412,6 @@
                         <div class="product-footer">
                             <div class="discount">Скидка 15%</div>
                             <div class="value"> 249 <i class="fa fa-rub"></i></div>
-                            <div class="time-discount" >
-                                <span class="title">До конца осталось</span>
-                                <span class="number">6</span>
-                                <span class="time">дней</span>
-                            </div>
                         </div>
                     </div>
                     <div class="product-select">
@@ -440,7 +422,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-product">
+            <div class="col-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-2 col-lg-6 col-lg-offset-0 col-product">
                 <div class="product" id="product-6">
                     <div class="product-body">
                         <div class="product-title">
@@ -453,11 +435,6 @@
                         <div class="product-footer">
                             <div class="discount">Скидка 15%</div>
                             <div class="value"> 249 <i class="fa fa-rub"></i></div>
-                            <div class="time-discount" >
-                                <span class="title">До конца осталось</span>
-                                <span class="number">6</span>
-                                <span class="time">дней</span>
-                            </div>
                         </div>
                     </div>
                     <div class="product-select">
@@ -468,10 +445,26 @@
                     </div>
                 </div>
             </div>
+                <div class="col-12 text-center">
+
+                    <div class="paginate-catalog">
+                        <ul class="pagination">
+                            <li class="disabled"><a href="#">«</a></li>
+                            <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">»</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+
         </div>
     </div>
 </section>
-<!-- /promotions -->
+<!-- /catalog -->
 
 
 <!-- footer-->
@@ -576,14 +569,67 @@
 <script src="js/jquery/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/prefixfree.min.js"></script>
-<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.validate.js"></script>
 <script src="js/owl.carousel/owl.carousel.min.js"></script>
 <script src="js/pickmeup/pickmeup.js"></script>
 <script src="js/pickmeup/jquery.pickmeup.twitter-bootstrap.js"></script>
 <script src="js/jquery.touchSwipe.min.js"></script>
 <script src="js/jquery.cookie.js"></script>
+
+<!-- category -->
+<script src="js/ion.rangeSlider.js"></script>
+<!-- /category -->
+
 <script src="js/theme.js"></script>
 <script src="js/basket.js"></script>
+<script src="js/validateForm.js"></script>
+
+<script  type="application/javascript">
+
+    rangePriceLogic();
+    function rangePriceLogic() {
+        let rangePrice =  $("#rangePrice");
+        let pMin = $('#min-price');
+        let pMax = $('#max-price');
+        let value;
+
+
+        rangePrice.ionRangeSlider({
+            type: "single",
+            min: 1,
+            max: 10000,
+            from: 5000
+        });
+
+        rangePrice.on("change", function () {
+              value = $(this).prop("value");
+              pMin.val(0);
+              pMax.val(value);
+        });
+    }
+    ageLogic();
+    function ageLogic() {
+        let rangeAge = $("#rangeAge");
+        let value;
+        let minAge = $("#min-age");
+        let maxAge = $("#max-age");
+
+        rangeAge.ionRangeSlider({
+            type: "double",
+            min: 1,
+            max: 5,
+            from: 2,
+            to: 3,
+            step: 1,
+    });
+        rangeAge.on("change", function () {
+                value = $(this).prop("value").split(";");
+                minAge.val(value[0]);
+                maxAge.val(value[1]);
+        });
+    }
+
+</script>
 
 
 
@@ -605,7 +651,7 @@
                 <h5 class="modal-title">Регистрация</h5>
             </div>
             <div class="modal-body">
-                <form>
+                <form id="register-form">
                     <div class="form-group">
                         <label for="email">Ваша электронная почта <span class="color-red">*</span></label>
                         <input name="email" type="email" class="form-control"  id="email"  placeholder="Ваша email" required>
@@ -615,20 +661,21 @@
                         <input name="password" type="password" class="form-control"  id="password"  placeholder="Ваша пароль" required>
                     </div>
                     <div class="form-group">
-                        <label for="repeatPassword">Повторите пароль <span class="color-red">*</span></label>
-                        <input type="password" class="form-control"  id="repeatPassword"  placeholder="Повторите пароль" required>
+                        <label for="password_again">Повторите пароль <span class="color-red">*</span></label>
+                        <input name="password_again" type="password" class="form-control"  id="password_again"  placeholder="Повторите пароль" required>
                     </div>
 
                     <div class="text-center">
                         <button type="submit" class="btn btn-modal">Зарегистрироваться</button>
                     </div>
+
                 </form>
             </div>
             <hr>
             <div class="modal-footer">
-                <h5>Не зарегистрированы?</h5>
+                <h5>Зарегистрированы?</h5>
                 <div class="text-center registry-bottom">
-                    <button type="button" class="btn btn-modal" id="loginButton">Авторизация <i class="fa fa-sign-in"> </i></button>
+                    <button type="button" class="btn btn-modal loginButton">Авторизация <i class="fa fa-sign-in"> </i></button>
                 </div>
             </div>
         </div>
@@ -650,14 +697,14 @@
                 <h5 class="modal-title">Вход в личный кабинет</h5>
             </div>
             <div class="modal-body">
-                <form>
+                <form id="login-form">
                     <div class="form-group">
                         <label for="loginEMail">Ваша электронная почта <span class="color-red">*</span></label>
-                        <input name="email" type="email" class="form-control"  id="loginEMail"  placeholder="Ваша email" required>
+                        <input name="email" type="text" class="form-control"  id="loginEMail"  placeholder="Ваша email" required>
                     </div>
                     <div class="form-group">
                         <label for="loginPassword">Пароль <span class="color-red">*</span></label>
-                        <a href="#" class="forgot-password">Забыли пароль?</a>
+                        <a href="#" class="forgot-password" id="forgot-password">Забыли пароль?</a>
                         <input name="password" type="password" class="form-control"  id="loginPassword"  placeholder="Ваша пароль" required>
                     </div>
                     <div class="text-center">
@@ -670,9 +717,48 @@
             <div class="modal-footer">
                 <h5>Не зарегистрированы?</h5>
                 <div class="text-center registry-bottom">
-                    <button type="button" class="btn btn-modal" id="registerButton">Регитсрация</button>
+                    <button type="button" class="btn btn-modal registerButton">Регистрация</button>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="modal" id="fagotPassword" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+            <div class="modal-bottom-close">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="round" aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-header">
+                <h5 class="modal-title">Васстановление пароля</h5>
+            </div>
+            <div class="modal-body">
+                <form id="fagot-form">
+                    <div class="form-group">
+                        <label for="fagotEmail">Ваша электронная почта <span class="color-red">*</span></label>
+                        <input name="email" type="email" class="form-control"  id="fagotEmail"  placeholder="Ваша email" required>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-modal">Восстановить пароль</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <h5>Вспомнили пароль?</h5>
+                <div class="text-center registry-bottom">
+                    <button type="button" class="loginButton btn btn-modal">Авторизация <i class="fa fa-sign-in"> </i></button>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
