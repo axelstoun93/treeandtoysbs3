@@ -18,12 +18,9 @@
     .top-user-bar .geo,
     .geo-registry
     {
-        text-align: center;
+        text-align: left;
     }
-    .top-user-bar
-    {
-        text-align: center;
-    }
+
     .top-user-bar .geo,
     .geo-registry
     {
@@ -37,19 +34,15 @@
     }
     .top-search
     {
-        padding: 20px 30px 0 30px;
+        padding: 20px 5px 0 5px;
     }
-    .geo a.instagram i,
-    .geo a.vk i
-    {
-        display: inline;
-    }
+
 }
 
 @media (max-width:990px)
 {
 
-    .top-left
+    .top-left, .top-right ,.registry .top-user-bar
     {
         text-align: center;
     }
@@ -60,7 +53,7 @@
     {
         color: #fff;
     }
-    .registry .top-user-bar
+    .top-user-bar .geo, .geo-registry
     {
         text-align: center;
     }
@@ -74,6 +67,11 @@
     .menu-nav-mobile .navbar
     {
         padding: .5rem 0;
+    }
+
+    .top-search
+    {
+        padding: 20px 30px 0 30px;
     }
 
 }
@@ -548,5 +546,13 @@
 {
     .catalog .filter-block {
         padding:0 0;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .catalog .form-sort
+    {
+        text-align: center;
     }
 }

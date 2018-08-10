@@ -338,7 +338,15 @@ a:hover
 .geo a.instagram i,
 .geo a.vk i
 {
-    display: none;
+    display: inline-block;
+}
+
+.top-user-bar .geo,
+.geo-registry
+{
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 .geo-registry a.instagram i,
@@ -1201,8 +1209,9 @@ color:#fff;
 }
 .breadcrumb
 {
-     background-color: #fff;
+    background-color: #fff;
     color: #707070;
+	margin:0 0;
 }
 .breadcrumb>li+li:before {
     padding: 0 5px;
