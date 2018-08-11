@@ -1,4 +1,15 @@
-/* header */
+@media (max-width: 768px) {
+    h2, .h2 {
+        color: #73b629;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+}
+
+
+    /* header */
 @media (max-width:1200px)
 {
 
@@ -544,15 +555,28 @@
 /* catalog */
 @media (max-width: 1200px)
 {
-    .catalog .filter-block {
+    .catalog-page .filter-block {
         padding:0 0;
     }
 }
 
 @media (max-width: 480px)
 {
-    .catalog .form-sort
+    .catalog-page .form-sort
     {
         text-align: center;
+    }
+}
+
+/* /catalog */
+
+/* product-page */
+
+@media(max-width: 480px)
+{
+    .modal-dialog-images
+    {
+
+        width: 90%;
     }
 }
