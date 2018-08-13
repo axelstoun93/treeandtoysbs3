@@ -89,7 +89,7 @@ a:hover
 }
 .form-search .input-group .form-control
 {
-    padding: 23px 20px;
+    height: 45px;
     border-radius: 30px 30px;
     background: #cee6b6;
     width: 82.333333%;
@@ -924,7 +924,7 @@ color:#fff;
 {
     background: rgba(255,255,255, 0.8);
     border: 1px solid #707070;
-    padding: 23px 20px;
+    height: 45px;
     border-radius: 30px 30px;
     box-shadow: none;
     width: 83.333333%;

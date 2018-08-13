@@ -1,16 +1,30 @@
 (function () {
+
+
 productCarousel();
 function productCarousel() {
 
 
-    $(".product-zoom").elevateZoom({tint:true, tintColour:'#F90', tintOpacity:0.4});
-    $('.block a img').mouseover(function (e) {
-        let fullImagesBlock = $('.product-images img');
-        $(this).attr('src');
-        fullImagesBlock.attr('src',$(this).attr('src'));
-        fullImagesBlock.data('zoom-image',$(this).attr('src'));
-        $(".product-zoom").elevateZoom({tint:true, tintColour:'#F90', tintOpacity:0.4});
-    });
+
+    if(windowSmallDevice())
+    {
+        $('.block a img').mouseover(function (e) {
+            let fullImagesBlock = $('.product-images img');
+            $(this).attr('src');
+            fullImagesBlock.attr('src',$(this).attr('src'));
+        });
+    }else
+        {
+            $(".product-zoom").elevateZoom({tint:true, tintColour:'#F90', tintOpacity:0.4});
+            $('.block a img').mouseover(function (e) {
+                let fullImagesBlock = $('.product-images img');
+                $(this).attr('src');
+                fullImagesBlock.attr('src',$(this).attr('src'));
+                fullImagesBlock.data('zoom-image',$(this).attr('src'));
+                $(".product-zoom").elevateZoom({tint:true, tintColour:'#F90', tintOpacity:0.4});
+            });
+        }
+
 
 
 
@@ -67,6 +81,14 @@ function productCarousel() {
 
 
 
+    function windowSmallDevice(){
+        if($(window).width() <= 1000) {
+            return true
+        }else
+        {
+            return false
+        }
+    }
 
 
 
@@ -125,6 +147,8 @@ function reviewsLogic() {
         blockBottom.show();
     });
     */
+
+
 
 
     $("#review-form").validate({
@@ -218,6 +242,9 @@ function buyOneClick() {
 
 
 }
+
+
+
 
 })();
 
