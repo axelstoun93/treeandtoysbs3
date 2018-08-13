@@ -75,6 +75,7 @@ function validateForm() {
                 }
             },
             messages: {
+                required: "Укажите никнейм",
                 email: "Укажите корректный email адрес"
             },
 
@@ -82,6 +83,12 @@ function validateForm() {
                 form.submit();
             }
         });
+
+
+
+
+
+
 
     });
 

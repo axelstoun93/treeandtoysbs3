@@ -2,7 +2,10 @@
     box-sizing: border-box;
     border: none;
 }
-
+:active, :hover, :focus {
+    outline: 0 !important;
+    outline-offset: 0 !important;
+}
 body {
     color: #707070;
     font-family: Segoe UI Regular;
@@ -1051,11 +1054,16 @@ color:#fff;
     margin: 30px auto;
 }
 
-
+.modal-info
+{
+    font-size: 16px;
+    display: block;
+}
 .modal h5 {
     font-size: 24px;
     color: #779c2b;
     font-family: Segoe UI bold;
+    padding: 10px 0;
 
 }
 
@@ -1627,11 +1635,12 @@ color:#fff;
 /* product-page */
 .product-page .product-images
 {
-    border: 1px solid #78b17e;
+    border: 1px solid #a8b48e;
     border-radius: 30px;
     width: 100%;
     height: 100%;
     margin: 20px 0;
+    padding: 20px 20px;
 }
 .product-page .product-images img
 {
@@ -1640,7 +1649,7 @@ color:#fff;
 }
 .product-page .block a
 {
-    border: 1px solid #78b17e;
+    border: 1px solid #a8b48e;
     border-radius: 10px;
     color: #3498db;
     margin: 10px;
@@ -1679,7 +1688,308 @@ color:#fff;
 {
    text-decoration:underline;
 }
+.product-block-info
+{
+    border: 1px solid #a8b48e;
 
+    border-radius: 30px;
+    padding: 0 20px;
+    margin: 20px 0;
 
+}
 
-/* carousel close */
+.product-block-info .head-product-block
+{
+    padding: 10px 0 ;
+}
+.product-block-info .middle-product-block
+{
+
+    display: block;
+}
+.product-block-info .footer-product-block
+{
+    padding: 10px;
+}
+
+.product-block-info .product-price
+{
+    padding: 40px 0 20px 0;
+}
+
+.product-block-info .special
+{
+    color: #ff0000;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.product-block-info .old-price
+{
+        margin-right:30px ;
+        display: inline-block;
+}
+
+.product-block-info .now-price
+{
+    font-size: 36px;
+    color: #779c2b;
+    font-family: Segoe UI bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.product-block-info .product-logo
+{
+    width: 100%;
+    text-align: center;
+}
+.product-block-info .product-logo img
+{
+    width: 150px;
+    height: auto;
+}
+.product-block-info .buy-one-click
+{
+    display: block;
+}
+
+.product-block-info  .cart-button
+{
+    padding: 5px 20px;
+    border: 1px solid #a8b48e;
+    display: inline-block;
+    border-radius: 5px;
+    color: #707070;
+}
+
+.product-block-info  .cart-button:hover,
+.product-block-info  .cart-button:focus
+{
+    padding: 5px 20px;
+    border: 1px solid #a8b48e;
+    background: #73b629;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.product-block-info .status-product
+{
+    line-height: 15px;
+    text-align: center;
+}
+.product-block-info .status-product,
+.product-block-info .add-cart-button
+{
+    padding: 20px 0;
+}
+
+.product-block-info .status-product .status
+{
+    color: #b14916;
+    font-size: 24px;
+    font-family: Segoe UI bold;
+}
+
+.product-page .description
+{
+    display: block;
+    position: relative;
+}
+
+.product-page .description .properties
+{
+    width: 100%;
+    text-align: center;
+}
+.product-page .description .properties ul
+{
+    list-style: none;
+    display: inline-block;
+}
+.product-page .description .properties ul li
+{
+    text-align: left;
+}
+.product-page .description .properties .property-name
+{
+    width: 100px;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.product-page .description .properties .property
+{
+    color:#b14916;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.product-tabs-block
+{
+    padding: 20px 0;
+}
+
+.product-page .tab-content-product
+{
+    border: 1px solid #a8b48e;
+    padding: 0 20px;
+}
+.product-tabs .nav-tabs
+{
+    border-bottom: 1px solid #a8b48e;
+}
+
+.product-tabs .nav-tabs i
+{
+   color: #b14916;
+}
+
+.product-tabs .nav-tabs>li:first-child
+{
+    padding: 0 5px 0 30px;
+}
+.product-tabs .nav-tabs>li
+{
+    padding: 0 5px;
+}
+.product-tabs .nav-tabs>li.active>a,
+.product-tabs .nav-tabs>li.active>a:focus,
+.product-tabs .nav-tabs>li.active>a:hover
+{
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #a8b48e;
+    font-family: Segoe UI bold;
+}
+.product-tabs .nav-tabs>li>a
+{
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #a8b48e;
+}
+
+.product-page .btn-grey{
+    background-color:#D8D8D8;
+    color:#FFF;
+}
+.product-page .rating-block{
+
+    padding:15px 15px 20px 15px;
+    border-radius:3px;
+}
+.product-page .bold{
+    font-weight:700;
+}
+.product-page .padding-bottom-7{
+    padding-bottom:7px;
+}
+
+.product-page .review-block{
+
+    padding: 30px;
+    border-radius:3px;
+    margin-bottom:15px;
+}
+.product-page .review-block-name{
+    font-size:12px;
+    margin:10px 0;
+}
+.product-page .review-block-date{
+    font-size:12px;
+}
+.product-page .review-block-rate{
+    font-size:13px;
+    margin-bottom:15px;
+}
+.product-page .review-block-title{
+    font-size:15px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+.product-page .review-block-description{
+    font-size:13px;
+}
+.product-page .btn-reviews {
+color: #fff;
+background-color:#b14916;
+border-color: #eea236;
+}
+
+.detailed-description-block , .manual-block
+{
+    padding: 20px;
+}
+.review-block img
+{
+    width: 60px;
+    height: auto;
+}
+
+.review-block .review-block-title .user-info
+{
+    display: inline-block;
+}
+.review-block .review-block-title .time-info
+{
+    display: inline-block;
+    float: right;
+}
+.review-block .review-block-description
+{
+     clear: both;
+    display: block;
+
+}
+.review-block .review
+{
+    border-top: 1px solid #a8b48e;
+    padding: 15px 0;
+}
+.review-block .review:last-child
+{
+    border-top: 1px solid #a8b48e;
+    border-bottom: 1px solid #a8b48e;
+    padding: 15px 0;
+}
+
+.review-block-form .review-form
+{
+    display: none;
+}
+.related-goods  hr
+{
+    border: 3px solid #b14916;
+    border-radius: 3px;
+    max-width: 300px;
+    background: #b14916;
+}
+
+.related-goods
+{
+    border-bottom: 1px solid #707070;
+    background: #f1f0ee;
+    padding: 0 0 20px;
+}
+.related-goods .row
+{
+    padding-top: 20px;
+}
+.related-goods  h2
+{
+    font-size: 40px;
+    font-family: Segoe UI Semibold;
+    text-align: center;
+    font-weight: bold;
+    color: #707070;
+    text-transform: none;
+    padding-top: 40px;
+}
+
+.related-goods  hr
+{
+    border: 3px solid #b14916;
+    border-radius: 3px;
+    max-width: 300px;
+    background: #b14916;
+}
+/* product-page */
