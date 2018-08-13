@@ -688,6 +688,16 @@ a:hover
     width: 95%;
     display: block;
 }
+.product a
+{
+    color: #707070;
+}
+.product a:hover,
+.product a:focus
+{
+    text-decoration: none;
+}
+
 .product-body
 {
     border: 1px solid #707070;
@@ -1993,3 +2003,65 @@ border-color: #eea236;
     background: #b14916;
 }
 /* product-page */
+
+/* delivery */
+.delivery-page-header
+{
+  border-bottom: 1px solid #b14916;
+}
+.row-two-block
+{
+    padding:40px 0;
+}
+.icon-delivery
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.icon-one,
+.icon-two
+{
+    cursor: pointer;
+    width: 110px;
+    height: auto;
+}
+.block-one
+{
+    background: #f1f0ee;
+    padding: 10px 0;
+}
+.block-two
+{
+    padding: 10px 0;
+}
+.icon-block-one,
+.icon-block-two
+{
+    cursor: pointer;
+}
+.icon-block-one p,
+.icon-block-two p
+{
+    padding: 10px 0 ;
+    font-weight: bold;
+}
+.block-one h2,
+.block-two h2
+{
+    color: #707070;
+    text-transform:none;
+}
+.block-content-one .row-two
+{
+    display: none;
+}
+.block-content-one .content,
+.block-content-two .content
+{
+    padding: 10px 0;
+}
+.block-content-two span
+{
+    font-weight: bold;
+}
