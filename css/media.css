@@ -440,7 +440,7 @@
 {
 
     .product-body .product-images img {
-        width: auto;
+        width: 100%;
         max-height: 140px;
     }
     .product-body .time-discount
@@ -455,18 +455,23 @@
     .product-select .product-dropdown
     {
         width: 100%;
+        height: 120px;
     }
     .product-select .dropdown-add .add
     {
 
         display: block;
         color:#707070;
-        font-size: 14px;
+        font-size: 13px;
     }
     .product-select .dropdown-add .add .round-icon
     {
         font-size: 12px;
         padding: 0 8px;
+    }
+    .product-block-info .old-price {
+        margin: 5px 0;
+        display: block;
     }
 }
 
@@ -652,13 +657,13 @@
 
     .nav.nav-tabs.bs-adaptive-tabs {
         position: relative;
-        height: 55px;
-        margin-bottom: 50px;
+        margin-bottom: 55px;
         outline: none;
     }
 
     .nav.nav-tabs.bs-adaptive-tabs   label {
         margin: 5px 0;
+        line-height: 15px;
     }
 
 
@@ -674,7 +679,7 @@
         transition: visibility .3s;
     }
     .nav.nav-tabs.bs-adaptive-tabs li:nth-child(-n+5) {
-        width: 16.6%; /*  100/(5+1)  */
+        width: 31.6%; /*  100/(5+1)  */
         text-align: center;
     }
     .nav.nav-tabs.bs-adaptive-tabs li:nth-child(6) {
@@ -712,11 +717,60 @@
         position: absolute;
         top: 100%;
         left: 0;
-        padding: 10px 15px;
+        padding: 16px 15px;
     }
     .nav.nav-tabs.bs-adaptive-tabs li.active a label {
         visibility: visible;
     }
 
 
+}
+/* contact */
+@media (max-width: 768px)
+{
+
+    .footer-map .menu-footer
+    {
+        display: block;
+
+    }
+    .footer-map
+    {
+        height: 980px;
+    }
+    .map-form
+    {
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+    }
+    .contact .contact-block
+    {
+        text-align: center;
+    }
+    .contact .contact-string
+    {
+        text-align: left;
+    }
+
+    .contact .col-centered{
+        float: none;
+        margin: 0 auto;
+        width: 320px;
+    }
+}
+
+@media (max-width: 380px) {
+    .map-form
+    {
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+        width: 280px;
+    }
+    .contact .col-centered{
+        float: none;
+        margin: 0 auto;
+        width: 280px;
+    }
 }

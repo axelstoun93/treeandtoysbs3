@@ -2002,7 +2002,7 @@ border-color: #eea236;
     max-width: 300px;
     background: #b14916;
 }
-/* product-page */
+/* product-page close */
 
 /* delivery */
 .delivery-page-header
@@ -2064,4 +2064,125 @@ border-color: #eea236;
 .block-content-two span
 {
     font-weight: bold;
+}
+
+
+/* delivery close */
+
+/* contact */
+
+.contact-block h2
+{
+    color:#707070;
+    text-transform: none;
+    font-size: 26px;
+}
+
+
+.contact-block .contact-string
+{
+    font-size: 18px;
+    word-wrap: normal;
+    overflow-wrap:normal;
+    clear: both;
+    padding: 10px;
+}
+.contact-block .contact-string .icon
+{
+    display: block;
+    float: left;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.contact-block .contact-string .info
+{
+    vertical-align: middle;
+}
+.contact-block .contact-string .icon img
+{
+    max-height: 48px;
+    width: auto;
+}
+.contact-block .contact-string .icon
+{
+    font-size: 24px;
+}
+
+.contact-block .requisites a
+{
+    color: #72b42c;
+}
+.contact-block .requisites a:hover,
+.contact-block .requisites a:focus
+{
+    text-decoration: underline;
+}
+.contact-string i
+{
+   color: #b14916;
+}
+.bottom-contact
+{
+    padding: 20px 0;
+}
+
+
+.footer-map
+{
+    display: block;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-image:url('../images/bg.jpg');
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+}
+
+#map
+{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 5; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+.map-form {
+    height: auto;
+    width: 300px;
+    border: 1px solid #a8b48e;
+    background: rgba(255,255,255, 0.8);
+    border-radius: 30px;
+    top:50px;
+    right: 50px;
+    position:absolute;
+    text-align: left;
+    padding: 20px 20px;
+    z-index: 10;
+}
+.map-form h5
+{
+    color:#779c2b;
+    text-align: center;
+    font-size: 24px;
+    font-family: Segoe UI bold;
+}
+
+.map-form input,
+.map-form textarea
+{
+    border-radius: 10px;
+}
+.footer-map .menu-footer
+{
+    display: block;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
 }
